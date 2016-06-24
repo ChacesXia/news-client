@@ -3,7 +3,7 @@
   <div class="content home" distance="55" v-pull-to-refresh="refresh">
     <v-layer></v-layer>
     <slider :banner="banner"></slider>
-      <v-content type="block-title" style="margin: 0 0 0.4rem;
+    <v-content type="block-title" style="margin: 0 0 0.4rem;
     -webkit-box-shadow: 0 .06rem 0 #ccc;box-shadow: 0 .06rem 0 #ccc;background-color: white;">
       <btn style="float:left;margin: .4rem 0 .3rem .6rem;border:0;color:#6d6d72;padding:0">
       推荐新闻
@@ -77,11 +77,6 @@ export default {
       noimg: require('src/assets/img/noimg.jpg'),
       banner: [],
       tasks: []
-    }
-  },
-  computed: {
-    length () {
-      return this.tasks.length
     }
   },
   methods: {
