@@ -12,3 +12,8 @@
 > npm run dev
 
 当服务启动成功，则可以打开浏览器，使用[localhost:8080](localhost:8080)访问。
+
+
+----------
+第二种使用方式，将dist目录下的文件拷贝到你的服务器目录环境下。就可以正常访问了；  
+在这种情况下：以下是我的服务器地址，使用者可以访问：[http://oucxc.sinaapp.com/](http://oucxc.sinaapp.com/)
